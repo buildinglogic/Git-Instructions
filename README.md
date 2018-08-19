@@ -1,4 +1,5 @@
 # Hello-world
+
 Begin of github
 Get used to github from today
 
@@ -7,24 +8,24 @@ try to modify the readme from "readme-edit" bracnch
 
 
 
-******************** Add / connec to remote  ********************
+# Add / connect to remote  
 
 In Terminal, add the URL for the remote repository where your local repository will be pushed.
 
 $ git remote add origin remote_repository_URL
-# Sets the new remote as "origin"
+// Sets the new remote as "origin"
 
 $ git remote -v
-# Verifies the new remote URL
+// Verifies the new remote URL
 
 Push the changes in your local repository to GitHub.
 
 $ git push -u origin master
-# Pushes the changes in your local repository up to the remote repository you specified as the origin
+// Pushes the changes in your local repository up to the remote repository you specified as the origin
 
 
 
-******************** create / checkout /delete branch  ********************
+# create / checkout /delete branch  
 
 
 Create the branch on your local machine and switch in this branch :
@@ -41,7 +42,7 @@ $ git push origin [name_of_your_new_branch]
 
 
 
-Check out remote branch
+# Check out remote branch
 
 show all branches (local and remote)
 $ git branch -a
@@ -64,7 +65,7 @@ git fetch origin
 git checkout -b test origin/test
 
 
-
+# Delete branch
 
 To delete a local branch:
 $ git branch -d the_local_branch
