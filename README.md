@@ -70,6 +70,10 @@ git checkout -b test origin/test
 To delete a local branch:
 $ git branch -d the_local_branch
 
+Deleting remote branches in Git
+To delete a remote branch, we do not use the "git branch" command - but instead "git push" with the "--delete" flag:
+
+$ git push origin --delete feature/login
 
 
 
