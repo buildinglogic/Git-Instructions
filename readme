@@ -1,0 +1,5 @@
+try to connect to existed repository on github
+
+To merge local directory to exited repository on github:
+use
+> git merge --allow-unrelated-histories    // this will force the merge
